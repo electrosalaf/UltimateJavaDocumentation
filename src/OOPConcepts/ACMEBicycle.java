@@ -40,8 +40,8 @@ class TableRadio implements Radio {
     }
 
     public void printState() {
-        System.out.println("");
+        System.out.println();
     }
 }
 
-//  To compile the class ACMEBicycle1, you'll need to add public keyword to the beginning of the implemented interface methods.
+//  To compile the class Radio, you'll need to add public keyword to the beginning of the implemented interface methods.
