@@ -1,22 +1,12 @@
 package JavaBasics;
 
-class ArrayDemo {
+class ArrayDemoModified {
     public static void main(String[] args) {
 
-        int[] anArray;                            //  Declare an array of integers
-
-        anArray = new int[10];                    // Allocates memory for new integers
-
-        anArray[0] = 100;                         // Initialize all elements
-        anArray[1] = 200;
-        anArray[2] = 300;
-        anArray[3] = 400;
-        anArray[4] = 500;
-        anArray[5] = 600;
-        anArray[6] = 700;
-        anArray[7] = 800;
-        anArray[8] = 900;
-        anArray[9] = 1000;
+        int[] anArray = {
+                100, 200, 300, 400, 500,
+                600, 700, 800, 900, 1000
+        };
 
         System.out.println("Element at index 0:" + anArray[0]);
         System.out.println("Element at index 1:" + anArray[1]);
