@@ -19,7 +19,7 @@ class Bicycle {
     }
 
     void applyBrakes(int decrement) {
-        speed += decrement;
+        speed -= decrement;
     }
 
     void printState() {
@@ -39,6 +39,7 @@ class BicycleDemo {
         bike1.changeCadence(90);
         bike1.speedUp(60);
         bike1.changeGear(2);
+        bike1.applyBrakes(0);
         bike1.printState();
 
         bike2.changeCadence(80);
