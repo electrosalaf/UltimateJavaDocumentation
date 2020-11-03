@@ -25,4 +25,4 @@ class Parent { }
 
 class Child extends Parent implements myInterface{}
 
-interface myInterface{}
+interface myInterface { }
