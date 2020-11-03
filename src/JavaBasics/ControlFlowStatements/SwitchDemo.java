@@ -1,6 +1,6 @@
 package JavaBasics.ControlFlowStatements;
 
-class SwitchDemo {
+public class SwitchDemo {
     public static void main(String[] args) {
 
         int month = 8;
