@@ -1,3 +1,7 @@
+/**
+ * Ternary opeator evaluates to if-then-else.
+ * If someCondition is true , assign value1 to result, otherwise assign value2 to result.
+ */
 package JavaBasics;
 
 class ConditionalDemo2 {
