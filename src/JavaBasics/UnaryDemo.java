@@ -1,3 +1,10 @@
+/**
+ * +  Unary plus operator; indicates positive value (numbers are positive without it, however.
+ * -  Unary minus operator; negates an expression.
+ * ++ Increment operator; increase a value by 1.
+ * -- Decrement operator; decrease a value by 1.
+ *  ! Logical complement operator, inverts the value of a boolean
+ */
 package JavaBasics;
 
 class UnaryDemo {
