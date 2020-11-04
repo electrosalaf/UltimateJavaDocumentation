@@ -2,6 +2,8 @@
  * This program search for the number 12 in the array.
  * The break statement terminates the for loop when the value is found.
  * The control flow then transfers to the statement after the for loop.
+ * An unlabeled break statement terminates the innermost switch, for, while, or do-while statement.
+ * A labeled break statement terminates an outer statement.
  */
 package JavaBasics.ControlFlowStatements;
 
