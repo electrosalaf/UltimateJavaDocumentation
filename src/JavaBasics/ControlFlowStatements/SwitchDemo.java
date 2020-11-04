@@ -1,3 +1,8 @@
+/**
+ * The switch statement works with primitive data types: byte, short, char and int.
+ * Works with Enumerated types: Enum Types, String class.
+ * Works with special classes: Character, Byte, Short and Integers.
+ */
 package JavaBasics.ControlFlowStatements;
 
 public class SwitchDemo {
