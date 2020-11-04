@@ -1,3 +1,8 @@
+/**
+ * This program search for the number 12 in the array.
+ * The break statement terminates the for loop when the value is found.
+ * The control flow then transfers to the statement after the for loop.
+ */
 package JavaBasics.ControlFlowStatements;
 
 public class BreakDemo {
