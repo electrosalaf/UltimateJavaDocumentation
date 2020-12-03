@@ -1,4 +1,4 @@
-package Packages;
+package Packages.mygame;
 
 public class Utilities {
     //  Set DEBUG = false and compile to stop debug messages

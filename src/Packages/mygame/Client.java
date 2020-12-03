@@ -1,4 +1,4 @@
-package Packages;
+package Packages.mygame;
 
 import java.io.IOException;
 import java.io.PrintStream;
