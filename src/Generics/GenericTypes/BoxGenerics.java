@@ -15,5 +15,8 @@ public class BoxGenerics<T> {
     public T get() {
         return  t;
     }
+
+    //  Parameterized type
+    OrderedPair<String, BoxGenerics<Integer>> p = new OrderedPair<>("Primes", new BoxGenerics<Integer>());
 }
 
