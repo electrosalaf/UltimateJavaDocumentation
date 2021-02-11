@@ -53,8 +53,10 @@ public class ListOfNumbers {
         }
         catch (IndexOutOfBoundsException e) {
             System.err.println("IndexOutOfBoundException: " + e.getMessage());
+
         } catch (IOException e) {
             System.err.println("Caught IOException: " + e.getMessage());
+
         } finally {
             if (out != null) {
                 System.out.println("Closing PrintWriter");
